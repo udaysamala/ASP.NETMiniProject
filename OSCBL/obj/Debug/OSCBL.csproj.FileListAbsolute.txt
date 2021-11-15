@@ -1,0 +1,14 @@
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCBL\bin\Debug\OSCBL.dll
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCBL\bin\Debug\OSCBL.pdb
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCBL\bin\Debug\OSCDAL.dll
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCBL\bin\Debug\OSCDTO.dll
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCBL\bin\Debug\EntityFramework.dll
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCBL\bin\Debug\OSCDAL.pdb
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCBL\bin\Debug\OSCDAL.dll.config
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCBL\bin\Debug\OSCDTO.pdb
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCBL\bin\Debug\EntityFramework.xml
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCBL\obj\Debug\OSCBL.csproj.AssemblyReference.cache
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCBL\obj\Debug\OSCBL.csproj.CoreCompileInputs.cache
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCBL\obj\Debug\OSCBL.dll
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCBL\obj\Debug\OSCBL.pdb
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCBL\obj\Debug\OSCBL.csproj.CopyComplete

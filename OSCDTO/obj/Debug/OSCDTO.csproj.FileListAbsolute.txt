@@ -1,0 +1,6 @@
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCDTO\bin\Debug\OSCDTO.dll
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCDTO\bin\Debug\OSCDTO.pdb
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCDTO\obj\Debug\OSCDTO.csproj.AssemblyReference.cache
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCDTO\obj\Debug\OSCDTO.csproj.CoreCompileInputs.cache
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCDTO\obj\Debug\OSCDTO.dll
+W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCDTO\obj\Debug\OSCDTO.pdb

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSCPL", "OSCPL\OSCPL.csproj", "{B67C5756-99EB-4C50-9B43-3617CD4E9B25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSCDTO", "OSCDTO\OSCDTO.csproj", "{C45CF57F-1B1B-43E0-8714-311F41B5817D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSCBL", "OSCBL\OSCBL.csproj", "{2AB7DEDB-F8A7-45E2-9851-5CDCBF38C194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSCDAL", "OSCDAL\OSCDAL.csproj", "{0E0563C4-A76B-4C2D-8E28-9EA778DAD813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShoppingCart_WEBAPI", "OnlineShoppingCart_WEBAPI\OnlineShoppingCart_WEBAPI.csproj", "{30AE861E-8294-41E5-9CD4-814B8A8DB681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShoppingCart_WEBAPITests", "OnlineShoppingCart_WEBAPITests\OnlineShoppingCart_WEBAPITests.csproj", "{15CCF02E-811B-43EA-831F-84BB7EA16F86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B67C5756-99EB-4C50-9B43-3617CD4E9B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B67C5756-99EB-4C50-9B43-3617CD4E9B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B67C5756-99EB-4C50-9B43-3617CD4E9B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B67C5756-99EB-4C50-9B43-3617CD4E9B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C45CF57F-1B1B-43E0-8714-311F41B5817D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C45CF57F-1B1B-43E0-8714-311F41B5817D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C45CF57F-1B1B-43E0-8714-311F41B5817D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C45CF57F-1B1B-43E0-8714-311F41B5817D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB7DEDB-F8A7-45E2-9851-5CDCBF38C194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB7DEDB-F8A7-45E2-9851-5CDCBF38C194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB7DEDB-F8A7-45E2-9851-5CDCBF38C194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB7DEDB-F8A7-45E2-9851-5CDCBF38C194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E0563C4-A76B-4C2D-8E28-9EA778DAD813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0563C4-A76B-4C2D-8E28-9EA778DAD813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E0563C4-A76B-4C2D-8E28-9EA778DAD813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0563C4-A76B-4C2D-8E28-9EA778DAD813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30AE861E-8294-41E5-9CD4-814B8A8DB681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30AE861E-8294-41E5-9CD4-814B8A8DB681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30AE861E-8294-41E5-9CD4-814B8A8DB681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30AE861E-8294-41E5-9CD4-814B8A8DB681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15CCF02E-811B-43EA-831F-84BB7EA16F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15CCF02E-811B-43EA-831F-84BB7EA16F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15CCF02E-811B-43EA-831F-84BB7EA16F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15CCF02E-811B-43EA-831F-84BB7EA16F86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61C63573-0AAD-4546-99E4-4FCAAA14E907}
+	EndGlobalSection
+EndGlobal

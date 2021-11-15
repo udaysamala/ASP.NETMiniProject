@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OSCModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="cart">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="SNO." Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userId" Type="bigint" />
+    <Property Name="ProductId" Type="bigint" Nullable="false" />
+    <Property Name="productname" Type="varchar" MaxLength="50" />
+    <Property Name="quantity" Type="smallint" Nullable="false" />
+    <Property Name="price" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="SNO." />
+    </Key>
+    <Property Name="SNO." Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="productId" Type="bigint" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="75" Nullable="false" />
+    <Property Name="summary" Type="varchar" MaxLength="255" />
+    <Property Name="price" Type="float" Nullable="false" />
+    <Property Name="discount" Type="float" Nullable="false" />
+    <Property Name="quantity" Type="smallint" Nullable="false" />
+    <Property Name="createdAt" Type="datetime2" Precision="0" Nullable="false" />
+    <Property Name="updatedAt" Type="datetime2" Precision="0" />
+    <Property Name="startsAt" Type="datetime2" Precision="0" />
+    <Property Name="endsAt" Type="datetime2" Precision="0" />
+  </EntityType>
+  <EntityType Name="USERS">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="mobile" Type="varchar" MaxLength="15" />
+    <Property Name="username" Type="varchar" MaxLength="50" />
+    <Property Name="password" Type="varchar" MaxLength="32" Nullable="false" />
+    <Property Name="registeredAt" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="lastLogin" Type="datetime2" Precision="7" />
+  </EntityType>
+  <EntityContainer Name="OSCModelStoreContainer">
+    <EntitySet Name="cart" EntityType="Self.cart" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="product" EntityType="Self.product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="USERS" EntityType="Self.USERS" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

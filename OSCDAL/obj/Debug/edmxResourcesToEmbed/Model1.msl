@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OSCModelStoreContainer" CdmEntityContainer="OSCEntities">
+    <EntitySetMapping Name="carts">
+      <EntityTypeMapping TypeName="OSCModel.cart">
+        <MappingFragment StoreEntitySet="cart">
+          <ScalarProperty Name="SNO_" ColumnName="SNO." />
+          <ScalarProperty Name="Username" ColumnName="userId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="productname" ColumnName="productname" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="price" ColumnName="price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="products">
+      <EntityTypeMapping TypeName="OSCModel.product">
+        <MappingFragment StoreEntitySet="product">
+          <ScalarProperty Name="SNO_" ColumnName="SNO." />
+          <ScalarProperty Name="productId" ColumnName="productId" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="summary" ColumnName="summary" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="discount" ColumnName="discount" />
+          <ScalarProperty Name="quantity" ColumnName="quantity" />
+          <ScalarProperty Name="createdAt" ColumnName="createdAt" />
+          <ScalarProperty Name="updatedAt" ColumnName="updatedAt" />
+          <ScalarProperty Name="startsAt" ColumnName="startsAt" />
+          <ScalarProperty Name="endsAt" ColumnName="endsAt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERS">
+      <EntityTypeMapping TypeName="OSCModel.USER">
+        <MappingFragment StoreEntitySet="USERS">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="registeredAt" ColumnName="registeredAt" />
+          <ScalarProperty Name="lastLogin" ColumnName="lastLogin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

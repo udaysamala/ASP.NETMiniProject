@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OSCModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cart">
+    <Key>
+      <PropertyRef Name="ProductId" />
+    </Key>
+    <Property Name="SNO_" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="Int64" />
+    <Property Name="ProductId" Type="Int64" Nullable="false" />
+    <Property Name="productname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="quantity" Type="Int16" Nullable="false" />
+    <Property Name="price" Type="Double" Nullable="false" />
+  </EntityType>
+  <EntityType Name="product">
+    <Key>
+      <PropertyRef Name="SNO_" />
+    </Key>
+    <Property Name="SNO_" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="productId" Type="Int64" Nullable="false" />
+    <Property Name="title" Type="String" MaxLength="75" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="summary" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="price" Type="Double" Nullable="false" />
+    <Property Name="discount" Type="Double" Nullable="false" />
+    <Property Name="quantity" Type="Int16" Nullable="false" />
+    <Property Name="createdAt" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="updatedAt" Type="DateTime" Precision="0" />
+    <Property Name="startsAt" Type="DateTime" Precision="0" />
+    <Property Name="endsAt" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="USER">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="mobile" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="registeredAt" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="lastLogin" Type="DateTime" Precision="7" />
+  </EntityType>
+  <EntityContainer Name="OSCEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="carts" EntityType="Self.cart" />
+    <EntitySet Name="products" EntityType="Self.product" />
+    <EntitySet Name="USERS" EntityType="Self.USER" />
+  </EntityContainer>
+</Schema>
