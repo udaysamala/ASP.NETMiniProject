@@ -4,7 +4,7 @@
 | Folder | Description |
 | :---: | :---: |
 | `OnlineShoppingCart_WEBAPI` | Web Application  |
-| `OnlineShoppingCart_WEBAPITests` | MockTest |
+| `OnlineShoppingCart_WEBAPITests` | Using MockTest |
 | `OSCBL` | Business Logical Layer |
 | `OSCDAL` | Data Access Layer |
 | `OSCDTO` | Data Transfer objects |
