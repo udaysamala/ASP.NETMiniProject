@@ -4,3 +4,9 @@ W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCDTO\obj\Debug\OSCDTO.csproj.Assembl
 W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCDTO\obj\Debug\OSCDTO.csproj.CoreCompileInputs.cache
 W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCDTO\obj\Debug\OSCDTO.dll
 W:\LTTS\ADONET\Project\OnlineShoppingCart\OSCDTO\obj\Debug\OSCDTO.pdb
+W:\LTTS\WEBAPI\Project\OnlineShoppingCart\OSCDTO\bin\Debug\OSCDTO.dll
+W:\LTTS\WEBAPI\Project\OnlineShoppingCart\OSCDTO\bin\Debug\OSCDTO.pdb
+W:\LTTS\WEBAPI\Project\OnlineShoppingCart\OSCDTO\obj\Debug\OSCDTO.csproj.AssemblyReference.cache
+W:\LTTS\WEBAPI\Project\OnlineShoppingCart\OSCDTO\obj\Debug\OSCDTO.csproj.CoreCompileInputs.cache
+W:\LTTS\WEBAPI\Project\OnlineShoppingCart\OSCDTO\obj\Debug\OSCDTO.dll
+W:\LTTS\WEBAPI\Project\OnlineShoppingCart\OSCDTO\obj\Debug\OSCDTO.pdb
